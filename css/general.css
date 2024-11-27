@@ -110,8 +110,9 @@ body {
   font-size: 2rem;
   font-weight: 600;
   padding: 1.6rem 3.2rem;
-  transition: background-color 0.3s;
   border-radius: 9px;
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
 }
 .btn-full:link,
 .btn-full:visited {
@@ -132,7 +133,7 @@ body {
   background-color: #fdf1e9;
   /* border: 3px solid white; */
   /* trick to add border inside*/
-  box-shadow: inset 0 0 3px #fff;
+  box-shadow: inset 0 0 0 3px #fff;
 }
 .margin-right-sm {
   margin-right: 1.6rem !important;
